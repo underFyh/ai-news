@@ -32,4 +32,4 @@ jobs:
           # 👇 修改点 2：将 GitHub Secrets 中的智谱 Key 传给环境变量
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
         # 如果你把刚才的 Python 代码保存为了新文件（例如 news_ai_pro.py），请把下面的 news.py 换成新名字
-        run: python news.py
+        run: python news_ai_pro.py

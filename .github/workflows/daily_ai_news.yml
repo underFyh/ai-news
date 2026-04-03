@@ -2,8 +2,9 @@ name: 每日AI推送
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch: 
+    # 每天北京时间 08:13 (对应 UTC 00:13)
+    - cron: '13 1 * * *'
+  workflow_dispatch:
 
 jobs:
   push-news:
